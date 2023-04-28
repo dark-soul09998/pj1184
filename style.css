@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+}
+h1{
+    background-color:red;
+    color: darkcyan;
+}
+#show_sketch{
+    float: right;
+}
+#sketchName{
+    color: aquamarine;
+}
+canvas{
+    border: 5px solid red;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+
+}
+@keyframes example{
+    from{box-shadow: 2px 2px 40px green;}
+    to{box-shadow: 2px 2px 40px rgb(255, 115, 0);}
+}
+p.span{
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    
+}
+#score{
+font-size: 35px;
+margin-left: 20px;
+}
+#time{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
